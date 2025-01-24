@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amman Coding Academy Survey Form</title>
+    <style>
+        body {
+            background-color: #483D8B; 
+            font-family: Arial, sans-serif;
+        
+            }
+
+         h1, h2, p{
+            color: white; 
+            text-align: center;
+            font-family:'Franklin Gothic Medium', Arial;
+        }
+        form {
+            background-color: #1c1356; 
+            padding: 20px;
+            border: 1px solid; 
+            max-width: 550px;
+            margin: auto;
+            color: white;
+        }
+        label {
+            display: block;
+            margin-bottom: 3px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], select, textarea {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+        }
+        button[type="submit"] {
+            background-color: #4CAF50; 
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 95%;
+        }
+        button[type="submit"]:hover {
+            background-color: #a3eaa7;
+          
+        }
+       
+    </style>
+</head>
+<body>
+    
+   <!-- not complet yet -->
+    <h1>Amman Coding Academy Survey Form</h1>
+    <p>thank you for taking the time foe help</p>
+    <form>
+        <label for="name">Name</label><br>
+        <input type="text" name="name" placeholder="Enter Your Name"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email"name="email" placeholder="Enter Your Email"><br><br>
+
+        <label for="age">Age (optional)</label><br>
+        <input type="text" name="age" placeholder="Age"><br><br>
+
+        <label for="survey">How did you like my survey</label><br>
+        <select name="survey" placeholder="How did you like my survey">
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="poor">Poor</option>
+        </select><br><br>
+
+        <label>Would you recommend my pen to a friend?</label><br>
+        <input type="radio" id="definitely" name="recommend" value="definitely">
+        <label for="definitely">Definitely</label><br>
+        <input type="radio" id="maybe" name="recommend" value="maybe" checked>
+        <label for="maybe">Maybe</label><br>
+        <input type="radio" id="notsure" name="recommend" value="notsure">
+        <label for="notsure">Not sure</label><br><br>
+
+        <label for="feature">What is your favorite feature of codepen?</label><br>
+        <select id="feature" name="feature">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select><br><br>
+
+        <label>What would you like to see improved in my survey? (Check all that apply)</label><br>
+        <input type="checkbox" name="improvement" value="css">
+        <label for="css">CSS needs to be more complex</label><br>
+        <input type="checkbox" name="improvement" value="javascript">
+        <label for="javascript">Use some JavaScript</label><br>
+        <input type="checkbox" name="improvement" value="nochanges">
+        <label for="nochanges">NO changes required</label><br><br>
+
+        <label for="comments">Any comments or suggestions?</label><br>
+        <textarea name="comments" rows="4" cols="50" placeholder="Enter your comment here..."></textarea><br><br>
+
+        <button type="submit" style="background-color: green; color: white;">Submit</button>
+    </form>
+ </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+
+</html>

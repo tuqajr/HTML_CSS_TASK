@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+form {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            padding: 40px;  
+        }
+    
+    </style>
+       
+</head>
+<body>
+    <form >
+<fieldset>
+<label for="Name">Name:</label>
+<input type="text" id="Name" name="Name"><br>
+<p>Gender: 
+<label><input name="gender" type="radio" value="female"> Female</label>
+<label><input name="gender" type="radio" value="male" > Male</label></p>
+<p>Country:
+<select>
+    <option value=" select an option">select an option </option>
+  <option value="opt1">Amman</option>
+  <option value="opt2">Irbid</option>
+  <option value="opt3">Balqa</option>
+</select></p>
+
+<label for="Message"> Message:</label><br>
+<textarea id="message" name="message" rows="4" cols="30"></textarea><br>
+<br>
+
+<input type="checkbox">
+<label for="Subscribe?">Subscribe?</label><br><br>
+
+<input type="submit" value="Submit">
+</fieldset>
+
+    </form>
+</body>
+</html>
